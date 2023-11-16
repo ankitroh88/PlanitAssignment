@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="TestSuite">
+  <test thread-count="2" parallel="classes" name="Jupiter Tests">
+    <classes>
+      <class name="com.planit.application.tests.ContactTest"/>
+      <class name="com.planit.application.tests.ShopTest"/>
+    </classes>
+  </test> <!-- Jupiter Tests -->
+</suite> <!-- TestSuite -->

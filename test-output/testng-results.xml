@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-15T13:19:02 AEST" name="TestSuite" finished-at="2023-11-15T13:20:59 AEST" duration-ms="116906">
+    <groups>
+    </groups>
+    <test started-at="2023-11-15T13:19:02 AEST" name="Jupiter Tests" finished-at="2023-11-15T13:20:59 AEST" duration-ms="116906">
+      <class name="com.planit.application.tests.ShopTest">
+        <test-method is-config="true" signature="BaseSetup()[pri:0, instance:com.planit.application.tests.ShopTest@79e4c792]" started-at="2023-11-15T13:19:02 AEST" name="BaseSetup" finished-at="2023-11-15T13:19:08 AEST" duration-ms="6685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseSetup -->
+        <test-method is-config="true" signature="TestSetup()[pri:0, instance:com.planit.application.tests.ShopTest@79e4c792]" started-at="2023-11-15T13:19:08 AEST" name="TestSetup" finished-at="2023-11-15T13:19:09 AEST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method signature="addItemsToCart()[pri:1, instance:com.planit.application.tests.ShopTest@79e4c792]" started-at="2023-11-15T13:19:09 AEST" name="addItemsToCart" finished-at="2023-11-15T13:19:10 AEST" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToCart -->
+        <test-method is-config="true" signature="BaseTearDown()[pri:0, instance:com.planit.application.tests.ShopTest@79e4c792]" started-at="2023-11-15T13:19:10 AEST" name="BaseTearDown" finished-at="2023-11-15T13:19:10 AEST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseTearDown -->
+      </class> <!-- com.planit.application.tests.ShopTest -->
+      <class name="com.planit.application.tests.ContactTest">
+        <test-method is-config="true" signature="BaseSetup()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:19:02 AEST" name="BaseSetup" finished-at="2023-11-15T13:19:09 AEST" duration-ms="6826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseSetup -->
+        <test-method is-config="true" signature="TestSetup()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:19:09 AEST" name="TestSetup" finished-at="2023-11-15T13:19:09 AEST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method signature="validateMandatoryFieldsErrors()[pri:1, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:19:09 AEST" name="validateMandatoryFieldsErrors" finished-at="2023-11-15T13:19:09 AEST" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMandatoryFieldsErrors -->
+        <test-method is-config="true" signature="BaseTearDown()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:19:09 AEST" name="BaseTearDown" finished-at="2023-11-15T13:19:09 AEST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseTearDown -->
+        <test-method is-config="true" signature="BaseSetup()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:19:09 AEST" name="BaseSetup" finished-at="2023-11-15T13:19:13 AEST" duration-ms="4008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseSetup -->
+        <test-method is-config="true" signature="TestSetup()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:19:13 AEST" name="TestSetup" finished-at="2023-11-15T13:19:13 AEST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method signature="validateMandatoryFieldsErrorFix()[pri:2, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:19:13 AEST" name="validateMandatoryFieldsErrorFix" finished-at="2023-11-15T13:19:44 AEST" duration-ms="30799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMandatoryFieldsErrorFix -->
+        <test-method is-config="true" signature="BaseTearDown()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:19:44 AEST" name="BaseTearDown" finished-at="2023-11-15T13:19:44 AEST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseTearDown -->
+        <test-method is-config="true" signature="BaseSetup()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:19:46 AEST" name="BaseSetup" finished-at="2023-11-15T13:19:50 AEST" duration-ms="4261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseSetup -->
+        <test-method is-config="true" signature="TestSetup()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:19:50 AEST" name="TestSetup" finished-at="2023-11-15T13:19:50 AEST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method signature="validateSuccessfulContactSubmissionUsingXLS(com.planit.application.data.ContactData)[pri:3, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:19:50 AEST" name="validateSuccessfulContactSubmissionUsingXLS" data-provider="ContactSubmissionData" finished-at="2023-11-15T13:20:01 AEST" duration-ms="11291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.planit.application.data.ContactData@2c0a8541]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccessfulContactSubmissionUsingXLS -->
+        <test-method is-config="true" signature="BaseTearDown()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:01 AEST" name="BaseTearDown" finished-at="2023-11-15T13:20:01 AEST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseTearDown -->
+        <test-method is-config="true" signature="BaseSetup()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:01 AEST" name="BaseSetup" finished-at="2023-11-15T13:20:05 AEST" duration-ms="3595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseSetup -->
+        <test-method is-config="true" signature="TestSetup()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:05 AEST" name="TestSetup" finished-at="2023-11-15T13:20:05 AEST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method signature="validateSuccessfulContactSubmissionUsingXLS(com.planit.application.data.ContactData)[pri:3, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:05 AEST" name="validateSuccessfulContactSubmissionUsingXLS" data-provider="ContactSubmissionData" finished-at="2023-11-15T13:20:09 AEST" duration-ms="3677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.planit.application.data.ContactData@c44b3c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccessfulContactSubmissionUsingXLS -->
+        <test-method is-config="true" signature="BaseTearDown()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:09 AEST" name="BaseTearDown" finished-at="2023-11-15T13:20:09 AEST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseTearDown -->
+        <test-method is-config="true" signature="BaseSetup()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:09 AEST" name="BaseSetup" finished-at="2023-11-15T13:20:13 AEST" duration-ms="3892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseSetup -->
+        <test-method is-config="true" signature="TestSetup()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:13 AEST" name="TestSetup" finished-at="2023-11-15T13:20:13 AEST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method signature="validateSuccessfulContactSubmissionUsingXLS(com.planit.application.data.ContactData)[pri:3, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:13 AEST" name="validateSuccessfulContactSubmissionUsingXLS" data-provider="ContactSubmissionData" finished-at="2023-11-15T13:20:24 AEST" duration-ms="11305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.planit.application.data.ContactData@a27ffa8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccessfulContactSubmissionUsingXLS -->
+        <test-method is-config="true" signature="BaseTearDown()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:24 AEST" name="BaseTearDown" finished-at="2023-11-15T13:20:24 AEST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseTearDown -->
+        <test-method is-config="true" signature="BaseSetup()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:24 AEST" name="BaseSetup" finished-at="2023-11-15T13:20:28 AEST" duration-ms="3967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseSetup -->
+        <test-method is-config="true" signature="TestSetup()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:28 AEST" name="TestSetup" finished-at="2023-11-15T13:20:28 AEST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method signature="validateSuccessfulContactSubmissionUsingXLS(com.planit.application.data.ContactData)[pri:3, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:28 AEST" name="validateSuccessfulContactSubmissionUsingXLS" data-provider="ContactSubmissionData" finished-at="2023-11-15T13:20:39 AEST" duration-ms="11171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.planit.application.data.ContactData@49500b94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccessfulContactSubmissionUsingXLS -->
+        <test-method is-config="true" signature="BaseTearDown()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:39 AEST" name="BaseTearDown" finished-at="2023-11-15T13:20:40 AEST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseTearDown -->
+        <test-method is-config="true" signature="BaseSetup()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:40 AEST" name="BaseSetup" finished-at="2023-11-15T13:20:45 AEST" duration-ms="5050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseSetup -->
+        <test-method is-config="true" signature="TestSetup()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:45 AEST" name="TestSetup" finished-at="2023-11-15T13:20:45 AEST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method signature="validateSuccessfulContactSubmissionUsingXLS(com.planit.application.data.ContactData)[pri:3, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:45 AEST" name="validateSuccessfulContactSubmissionUsingXLS" data-provider="ContactSubmissionData" finished-at="2023-11-15T13:20:58 AEST" duration-ms="13738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.planit.application.data.ContactData@6fa831a7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccessfulContactSubmissionUsingXLS -->
+        <test-method is-config="true" signature="BaseTearDown()[pri:0, instance:com.planit.application.tests.ContactTest@55a147cc]" started-at="2023-11-15T13:20:58 AEST" name="BaseTearDown" finished-at="2023-11-15T13:20:59 AEST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseTearDown -->
+      </class> <!-- com.planit.application.tests.ContactTest -->
+    </test> <!-- Jupiter Tests -->
+  </suite> <!-- TestSuite -->
+</testng-results>
