@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building Project'
-                git 'https://github.com/ankitroh88/PlanitAssessment.git'
+                git 'https://github.com/ankitroh88/PlanitAssignment.git'
                 bat 'mvn dependency:resolve'
                 bat 'mvn clean'
                 bat 'mvn test-compile'
