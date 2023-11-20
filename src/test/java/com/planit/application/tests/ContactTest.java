@@ -5,7 +5,8 @@ import com.planit.application.data.ContactData;
 import com.planit.application.pages.ContactPage;
 import com.planit.application.pages.HomePage;
 import com.planit.application.utilities.DataProviders;
-import org.testng.AssertJUnit;
+
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -27,12 +28,12 @@ public class ContactTest extends BaseTest {
     System.out.println(
       "Validating Test Case 1 - Submission done on Contact page without entering mandatory dataset."
     );
-    AssertJUnit.assertEquals(
+    Assert.assertEquals(
       contactPage.getForenameError(),
       "Forename is required"
     );
-    AssertJUnit.assertEquals(contactPage.getEmailError(), "Email is required");
-    AssertJUnit.assertEquals(
+    Assert.assertEquals(contactPage.getEmailError(), "Email is required");
+    Assert.assertEquals(
       contactPage.getMessageError(),
       "Message is required"
     );
@@ -52,9 +53,9 @@ public class ContactTest extends BaseTest {
       .setForename(faker.name().firstName())
       .setEmail(faker.internet().emailAddress())
       .setMessage(faker.name().lastName());
-    AssertJUnit.assertEquals(contactPage.getForenameError(), "");
-    AssertJUnit.assertEquals(contactPage.getEmailError(), "");
-    AssertJUnit.assertEquals(contactPage.getMessageError(), "");
+    Assert.assertEquals(contactPage.getForenameError(), "");
+    Assert.assertEquals(contactPage.getEmailError(), "");
+    Assert.assertEquals(contactPage.getMessageError(), "");
     System.out.println(
       "Error message wrt mandatory fields gone on providing input - Pass."
     );
@@ -83,7 +84,7 @@ public class ContactTest extends BaseTest {
       .clickSubmitButton();
 
     successMsg = contactPage.getSuccessMessage();
-    AssertJUnit.assertEquals(
+    Assert.assertEquals(
       "Thanks " + firstName + ", we appreciate your feedback.",
       successMsg
     );

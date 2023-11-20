@@ -2,7 +2,8 @@ package com.planit.application.tests;
 
 import com.planit.application.pages.HomePage;
 import com.planit.application.pages.ShopPage;
-import org.testng.AssertJUnit;
+
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -42,15 +43,15 @@ public class ShopTest extends BaseTest {
       .addItemToCart("Valentine Bear")
       .goToCart();
 
-    AssertJUnit.assertEquals(
+    Assert.assertEquals(
       stuffedFrogUnitPrice,
       shopPage.getItemUnitPriceInCart("Stuffed Frog")
     );
-    AssertJUnit.assertEquals(
+    Assert.assertEquals(
       fluffyBunnyUnitPrice,
       shopPage.getItemUnitPriceInCart("Fluffy Bunny")
     );
-    AssertJUnit.assertEquals(
+    Assert.assertEquals(
       valentineBearUnitPrice,
       shopPage.getItemUnitPriceInCart("Valentine Bear")
     );
@@ -70,21 +71,21 @@ public class ShopTest extends BaseTest {
       Double.parseDouble(expectedSubtotalFluffyBunny) +
       Double.parseDouble(expectedSubtotalValentineBear);
 
-    AssertJUnit.assertEquals(
+    Assert.assertEquals(
       expectedSubtotalStuffedFrog,
       shopPage.getItemSubtotalInCart("Stuffed Frog")
     );
-    AssertJUnit.assertEquals(
+    Assert.assertEquals(
       expectedSubtotalFluffyBunny,
       shopPage.getItemSubtotalInCart("Fluffy Bunny")
     );
-    AssertJUnit.assertEquals(
+    Assert.assertEquals(
       expectedSubtotalValentineBear,
       shopPage.getItemSubtotalInCart("Valentine Bear")
     );
     System.out.println("Items subtotal price in cart validated successfully.");
 
-    AssertJUnit.assertEquals(
+    Assert.assertEquals(
       Double.toString(expectedCartTotal),
       shopPage.getCartTotal()
     );
